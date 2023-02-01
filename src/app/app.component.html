@@ -6,6 +6,7 @@
     <h6>{{name}}</h6>
     <input (keyup)="changeImage($event)" [value]="imgURL"/>
 <!--property binding-->
-    <img [src]="imgURL" alt="photo" />
+    <app-post [postImg]="imgURL"></app-post>
+
   </section>
 </main>

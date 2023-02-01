@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent
   ],
+  // Angular doesn't assume what your building, this is a browser application, so we use Browser Module
   imports: [
     BrowserModule
   ],

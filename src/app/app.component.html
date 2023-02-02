@@ -5,8 +5,8 @@
     <h4>{{getName()}}</h4>
     <h6>{{name}}</h6>
     <input (keyup)="changeImage($event)" [value]="imgURL"/>
-<!--property binding-->
-    <app-post [postImg]="imgURL"></app-post>
+    <!--property binding-->
+    <app-post [img]="imgURL" (imgSelected)="logImg($event)" )></app-post>
 
   </section>
 </main>
